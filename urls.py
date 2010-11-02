@@ -5,7 +5,7 @@ from django.conf.urls.defaults import *
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    (r'^$/', include('p2pu.foo.urls)), 
+    (r'$^', 'welcome.views.index'),
     # Example:
     # (r'^p2pu/', include('p2pu_v2.foo.urls')),
 
