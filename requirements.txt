@@ -1,0 +1,4 @@
+Django==1.2.3
+nose
+
+-e git://github.com/jbalogh/django-nose#egg=django-nose
