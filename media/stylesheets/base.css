@@ -107,5 +107,22 @@ a {
         #slogo em.declaration {
           color: #f08c00;
         }
-  
+    #course-actions {
+      float: right;
+      width: 276px;
+    }
+      #course-actions .find {
+        font-size: 47px;
+        display: block;
+        height: 135px;
+        padding: 20px 20px 20px 35px;
+        text-transform: uppercase;
+        background: url('/media/images/bg.find-your-course.png') no-repeat;
+        color: white;
+        line-height: 47px;
+      }
+      #course-actions .find:hover {
+        background-position: 0 -175px;
+        color: #5a6579;
+      }
 
