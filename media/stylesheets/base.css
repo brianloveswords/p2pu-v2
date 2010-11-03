@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+}
+body {
+  background: white url('/media/images/bg.default-pattern.png');
+  height: 101%;
+  font-family: Arvo, Rockwell, Georgia, serif;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+a {
+  text-decoration: none;
+}
+
+#page {
+}
+
+#header {
+  width: 1000px;
+  margin: 20px auto;
+  height: 170px;
+ }
+  #logo {
+    float: left;
+    display: block;
+    text-align: left;
+    text-indent: -10000px;
+    overflow: hidden;
+    background: transparent url('/media/images/logo.png') no-repeat;
+    width: 166px;
+    height: 166px;
+  }
+  #primary-navigation {
+    margin-top: 60px;
+    float: right;
+    background: #fff;
+    height: 45px;
+    padding-left: 20px;
+  }
+    #primary-navigation a {
+      color: #a9b2c1;
+      padding: 1px 5px;
+    }
+      #primary-navigation a:hover {
+        background-color: #36cdc4;
+        color: #fff;
+      }
+    #primary-navigation li {
+      color: #a9b2c1;
+      list-style: none;
+      line-height: 45px;
+      font-size: 17px;
+      font-weight: bold;
+      float: left;
+      padding: 0 5px;
+    }
+    #primary-navigation li.join {
+      padding-right: 30px;
+    }
+    #primary-navigation li.search {
+      background: #bec8d9; /*url('/media/images/icon.loupe.png') no-repeat 98px center;*/
+      text-align: center;
+    }
+      #primary-navigation li.search a {
+        color: white;
+      }
+    #primary-navigation li.login {
+      background-color: #ffde00;
+      text-align: center;
+    }
+      #primary-navigation li.login a {
+        color: #5a6579;
+      }
+    #primary-navigation li.login,
+    #primary-navigation li.search {
+      width: 128px;
+      padding: 0;
+    }
+
+
+#masthead-container {
+  clear: both;
+  width: 100%;
+  background: white;
+  padding: 1px 0;
+}
+  #masthead {
+    width: 1000px;
+    margin: 20px auto;
+  }
+    #slogo {
+      padding: 0;
+      font-size: 58px;
+      text-transform: uppercase;
+      color: #a9b2c1;
+    }
+      #slogo em {
+        font-style: normal;
+      }
+        #slogo em.adjective {
+          color: #cef200;
+        }
+        #slogo em.verb {
+          color: #36cdc4;
+          white-space: nowrap;
+        }
+        #slogo em.declaration {
+          color: #f08c00;
+        }
+  
+
