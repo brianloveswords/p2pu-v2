@@ -132,7 +132,8 @@ a {
         margin-top: 5px;
         background: url('/media/images/bg.run-a-course.png') no-repeat right top;
         color: #5a6579;
-        height: 81px;
+        padding-top: 15px;
+        height: 86px;
       }
         #course-actions .run:hover {
           background-position: right -121px;
