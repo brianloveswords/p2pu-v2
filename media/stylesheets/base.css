@@ -7,6 +7,7 @@ body {
   font-family: Arvo, Rockwell, Georgia, serif;
   font-weight: normal;
   letter-spacing: -1px;
+  color: #5a6579;
 }
 a {
   text-decoration: none;
@@ -139,4 +140,16 @@ a {
           background-position: right -121px;
           color: #fff;
         }
+  
+  #mission {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0.04em;
+    line-height: 30px;
+    width: 620px;
+  }
+    #mission span.p1 { color: #f08c00; }
+    #mission span.two { color: #a7c400; }
+    #mission span.p2 { color: #36cdc4; }
+    #mission span.u { color: #ffde00; }
 
