@@ -111,18 +111,31 @@ a {
       float: right;
       width: 276px;
     }
-      #course-actions .find {
+      #course-actions .find,
+      #course-actions .run {
         font-size: 47px;
         display: block;
-        height: 135px;
-        padding: 20px 20px 20px 35px;
-        text-transform: uppercase;
-        background: url('/media/images/bg.find-your-course.png') no-repeat;
-        color: white;
         line-height: 47px;
+        text-transform: uppercase;
+        padding: 20px 20px 20px 35px;
       }
-      #course-actions .find:hover {
-        background-position: 0 -175px;
+      #course-actions .find {
+        background: url('/media/images/bg.find-your-course.png') no-repeat;
+        color: #fff;
+        height: 135px;
+      }
+        #course-actions .find:hover {
+          background-position: 0 -175px;
+          color: #5a6579;
+        }
+      #course-actions .run {
+        margin-top: 5px;
+        background: url('/media/images/bg.run-a-course.png') no-repeat right top;
         color: #5a6579;
+        height: 81px;
       }
+        #course-actions .run:hover {
+          background-position: right -121px;
+          color: #fff;
+        }
 
